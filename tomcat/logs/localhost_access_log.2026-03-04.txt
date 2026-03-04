@@ -38,3 +38,22 @@
 0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:50:04 +0800] "POST /ebookshop/querymvp HTTP/1.1" 200 475
 0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:50:18 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&author=Mohammad+Ali&price=50 HTTP/1.1" 200 864
 >>>>>>> 2f302695c53e62a5c29f930d81c9e0e3c89e31bf
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:07:32 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 200 712
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:07:32 +0800] "GET /favicon.ico HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:07:33 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:08:38 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:08:39 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:08:39 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:08:40 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:08:55 +0800] "GET /ebookshop/eshopquery?price=20 HTTP/1.1" 500 3915
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:09:01 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&price=20 HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:10:12 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:10:16 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&price=20 HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:10:53 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:10:54 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:10:56 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&price=20 HTTP/1.1" 500 3915
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:24:38 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:24:41 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&price=20 HTTP/1.1" 200 659
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:24:50 +0800] "GET /ebookshop/eshoporder?id=1001&cust_name=Darren+Chai&cust_email=darrenchaiyx%40gmail.com&cust_phone=83601138 HTTP/1.1" 200 434
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:26:02 +0800] "GET //ebookshop/querybookpost.html HTTP/1.1" 200 466
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:15:26:05 +0800] "POST //ebookshop/querypost HTTP/1.1" 200 373
