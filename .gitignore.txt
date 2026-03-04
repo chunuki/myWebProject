@@ -21,3 +21,9 @@ Servers/
 .settings/
 .idea/
 *.iml
+
+# Java Compile/Temp folders
+bin/
+target/
+.gradle/
+.mvn/
