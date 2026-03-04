@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:46:08 +0800] "GET /ebookshop/eshopquery.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:46:12 +0800] "GET /ebookshop/eshopquery?price=50 HTTP/1.1" 200 308
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:46:52 +0800] "GET /ebookshop/eshopquery?price=50 HTTP/1.1" 200 308
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:48:27 +0800] "GET /ebookshop/eshopquery?price=50 HTTP/1.1" 200 155
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:48:31 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&price=50 HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:48:43 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&price=50 HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:49:20 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&author=Mohammad+Ali&price=50 HTTP/1.1" 200 864
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:49:27 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&author=Mohammad+Ali&price=100 HTTP/1.1" 200 864
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:51:46 +0800] "GET /ebookshop/eshopquery?author=Tan+Ah+Teck&author=Mohammad+Ali&price=100 HTTP/1.1" 200 864
+0:0:0:0:0:0:0:1 - - [04/Mar/2026:14:51:51 +0800] "GET /ebookshop/eshoporder?id=1001&cust_name=Darren+Chai&cust_email=darrenchaiyx%40gmail.com&cust_phone=83601138 HTTP/1.1" 200 434
