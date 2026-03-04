@@ -36,14 +36,12 @@ public class EshopQueryServlet extends HttpServlet {
          Statement stmt = conn.createStatement();
       ) {
          // Step 3: Execute a SQL SELECT query
-         String[] authors = request.getParameterValues("author");  // Returns an array of Strings
-
+         String[] authors = request.getParameterValues("author");
          if (authors == null) {
             out.println("<h2>No author selected. Please go back to select author(s)</h2><body></html>");
             return; // Exit doGet()
          } 
-
-         String sqlStr = "SELECT * FROM books WHERE author IN (";
+         String sqlStr = "select * from books where author IN (";
          for (int i = 0; i < authors.length; ++i) {
             if (i < authors.length - 1) {
                sqlStr += "'" + authors[i] + "', ";  // need a commas
@@ -51,7 +49,8 @@ public class EshopQueryServlet extends HttpServlet {
                sqlStr += "'" + authors[i] + "'";    // no commas
             }
          }
-         sqlStr += ") AND qty > 0 ORDER BY author ASC, title ASC";
+         sqlStr += ") AND price < " + request.getParameter("price")
+               + " AND qty > 0 ORDER BY author ASC, title ASC";
 
          out.println("<h3>Thank you for your query.</h3>");
          out.println("<p>Your SQL statement is: " + sqlStr + "</p>"); // Echo for debugging
