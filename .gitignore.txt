@@ -1,0 +1,23 @@
+# MySQL & Database files
+*.pdb
+*.exe
+*.dll
+*.log
+data/
+bin/
+
+# Java & Tomcat
+*.class
+*.war
+*.ear
+target/
+build/
+.metadata/
+Servers/
+
+# IDE specific (Eclipse/IntelliJ)
+.project
+.classpath
+.settings/
+.idea/
+*.iml
