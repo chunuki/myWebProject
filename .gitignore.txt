@@ -27,3 +27,16 @@ bin/
 target/
 .gradle/
 .mvn/
+
+# Block MySQL data and logs
+ib_redo*
+ibdata*
+ib_buffer_pool
+*.ibd
+undo_*
+binlog.*
+auto.cnf
+
+# Block Tomcat logs
+*.log
+*.txt
